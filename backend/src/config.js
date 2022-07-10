@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "8BitsDad";
-const description = "Remember to replace this description";
+const description = "8BitsDad is a 10,000 degenerate creation of Degen Dads that hold proof on the Ethereum Blockchain regarding your degen status.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
@@ -56,19 +56,19 @@ const CHAIN = 'ethereum'; // only rinkeby, polygon, or ethereum
 const CONTRACT_NAME = '8BitsDad';
 const CONTRACT_SYMBOL = '8BD';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0x6D4d9F94Ac1d63Adb0BC622894517c6e74cBa5e3';
-const TREASURY_ADDRESS = '0xE06AEC91cc8f8dB2e197899c28D0EA94a6AcB6f5';
+const OWNER_ADDRESS = '0x434ed3230D47a7268CbB90E551D4745b31Be5271';
+const TREASURY_ADDRESS = '0xbF2a7400b497667D6ea229e8445bbBAd245880CF';
 const MAX_SUPPLY = 10000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.05; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 2000; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 30; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-07-18T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = null; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-07-11T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 500; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0x47D75F58050d7ad468B854BE9c6ce74e5A09d4F4"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0x0EF3a57580EB90f57E382883B1e941B02400b252"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
@@ -79,7 +79,7 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "REPLACE THIS"; // Replace with what you want the generic descriptions to say.
+const GENERIC_DESCRIPTION = "Which 8BitsDad NFT will you get?"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreicduyop3to3xzshwlf6lxl2ijanq27iwfqz5abnrxso5qxma2xlie"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
