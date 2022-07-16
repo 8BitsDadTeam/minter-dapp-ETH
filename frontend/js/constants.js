@@ -3,14 +3,14 @@ const chain = 'ethereum'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the 8BitsDad Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started.";
-const welcome_p = 'Made by a Team of Awesome Degen Dads';
+const welcome_p = 'Made by a Team of Awesome Degenerate Dads';
 const h1_presale_coming_soon = "NFT Drop Coming Soon. Be patient Dad!";
 const h1_presale_mint = "Pre-Sale Minting Open!! Get your unique 8BitsDad NFT now!!";
 const h1_public_mint = "Public Minting Open!! Mint your very own 8BitsDad NFT!!";
 const h2_presale_coming_soon = "Pre-Sale Minting Countdown";
 const h2_presale_mint = "Public Minting Countdown";
-const p_presale_coming_soon = "We are working hard on the luanch. Wives, kids, trading Crypto during baseball games and other degenerate behaviors tend to get in the way. Don't worry. NFTs are coming soon!";
-const p_presale_mint_not_whitelisted = "You are not whitelisted for the pre-sale..Bad Dad. 😢";
+const p_presale_coming_soon = "We are working hard on the launch. Wives, kids, trading Crypto whilst changing diapers and other degenerate behaviors tend to get in the way. Don’t worry, NFTs are coming soon, GET ON THE WHITELIST!";
+const p_presale_mint_not_whitelisted = "You are not whitelisted for the pre-sale.Bad Dad. 😢";
 const p_presale_mint_whitelisted = "You're on the whitelist for the pre-sale! You're an AWESOME Degen Daddy!🎉";
 const p_presale_mint_already_minted = "You've already claimed your whitelist mint. Nice Try Dad.  🎉";
 const p_public_mint = "No whitelist needed. Public minting is now open! We welcome all Degen Dads to Mint! 🎉";
